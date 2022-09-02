@@ -27,7 +27,11 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   background-color: #100a1f;
-  border-bottom: 3px solid #55ff00;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-left: 3px solid #55ff00;
+  border-right: 3px solid #55ff00;
+  transition: ease-in-out;
 
   --animate-duration: 2s;
   --animate-delay: 0.9s;
@@ -229,3 +233,6 @@ nav a:hover {
   color: #382b58;
 }
 /* ### */
+
+@media (min-width: 720px) {
+}
